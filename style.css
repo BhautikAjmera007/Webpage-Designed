@@ -1,0 +1,910 @@
+/*Home page css start*/
+body{
+	height: 1340px;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #151410;
+}
+
+.menu_logo_section{
+	height: 170px;
+	background-color: #191512;
+}
+
+.main{
+	height: 130px;
+	width:860px;	
+	margin-left: 35px;
+	margin-top: 35px;
+}
+
+.logo{
+	height: 130px;
+	width:170px;
+	float: left;
+}
+
+.hope{
+	height:50px;
+	font-size: 50px; 
+	color: #FFC11F;
+}
+
+.center{
+	height:25px;
+	font-size: 25px;	
+	padding-left: 20px;
+}
+
+.header_menu_icon{
+	height: 130px;
+	width: 670px;
+	float: left;
+}
+
+.header_icon{					
+	height: 50px;	
+	width:670px;
+}
+
+.header_icon_right{
+	height: 30px;
+	width: 150px;
+	margin-left: 440px;
+	margin-top: 20px;
+}
+
+.mail{
+	height: 30px;
+	width: 30px;
+	float: left;
+}
+
+.mail1{
+	height: 30px;
+	width: 30px;
+	float: left;
+	margin-left: 30px;
+}
+
+.home{
+	height: 30px;
+	width: 30px;
+	float: right;	
+}
+
+.header_menu{
+	height: 70px;	
+	width:670px;
+	font-size: 15px;
+}
+
+.hm{
+	list-style-type: none;
+}
+
+.hhm{
+	display: inline;
+	color:white;
+}
+
+.slider{
+	height: 450px;	
+}
+
+.slider_left{
+	height: 445px;
+	width: 230px;
+	float: left;
+}
+
+.slider_left_first{
+	height: 140px;
+	width: 230px;
+	float: left;
+}
+
+.slider_left_second{
+	height: 140px;
+	width: 230px;
+	float: left;
+}
+
+.slider_left_third{
+	height: 150px;
+	width: 230px;
+	float: left;
+}
+
+.slider_right{
+	height: 445px;
+	width: 695px;
+	float: left;
+}
+
+.short_content{
+	height: 280px;		
+	background-color: #DAD6CB;
+}
+
+.true_story1{
+	height: 280px;
+	width:34%;
+	float: left;
+}
+
+.true_story1_div{
+	height: 240px;
+	width:85%;
+	margin: 20px 20px 20px 20px;
+}
+
+.true1_story_word{
+	height: 35px;
+	font-size: 30px;
+}
+
+.true1_story_img{
+	height: 95px;	
+	margin-top: 10px;
+}
+
+.true1_story_content{
+	height: 80px;
+	font-size: 30px;	
+	margin-top: 10px;	
+}
+
+.true1_story_content_btn{
+	height: 20px;
+	width: 90px;
+	margin-left: 140px;
+	padding-left: 20px;
+	background-color: black;
+	color:white;
+}
+
+.true_story2{
+	height: 280px;
+	width:30%;
+	float: left;
+}
+
+.true_story2_div{
+	height: 240px;
+	width:85%;
+	margin: 20px 20px 20px 20px;
+}
+
+.true2_story_word{
+	height: 35px;
+	font-size: 30px;
+}
+
+.true2_story_img{
+	height: 95px;	
+	margin-top: 10px;
+}
+
+.true2_story_content{
+	height: 80px;
+	font-size: 30px;	
+	margin-top: 10px;	
+}
+
+.true2_story_content_btn{
+	height: 20px;
+	width: 90px;
+	margin-left: 140px;
+	padding-left: 20px;
+	background-color: black;
+	color:white;
+}
+
+.true_story3{
+	height: 280px;
+	width:34%;
+	float: left;
+}
+
+.true_story3_div{
+	height: 240px;
+	width:85%;
+	margin: 20px 20px 20px 20px;
+}
+
+.true3_story_word{
+	height: 35px;
+	font-size: 30px;
+}
+
+.true3_story_img{
+	height: 95px;	
+	margin-top: 10px;
+}
+
+.true3_story_content{
+	height: 80px;
+	font-size: 30px;	
+	margin-top: 10px;	
+}
+
+.true3_story_content_btn{
+	height: 20px;
+	width: 90px;
+	margin-left: 140px;
+	padding-left: 20px;
+	background-color: black;
+	color:white;
+}
+
+.our_mission{
+	height: 140px;
+	background-color: #130F0C;
+}
+
+.om{
+	height: 150px;
+	width:280px;
+	float: left;
+}
+
+.ourmission_word{
+	height: 40px;
+	width:170px;
+	font-size: 30px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.om_content{
+	height: 150px;
+	width:611px;
+	float: left;
+	margin-left: 35px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.month{
+	height: 214px;
+}
+
+.june31{
+	height: 240px;
+	width:34%;
+	float: left;
+	background-color: #0E0C0A;
+}
+
+.jume31_div{
+	height: 200px;
+	width:80%;
+	margin: 20px 30px 30px 30px;
+}
+
+.june31_month_name{
+	height: 30px;
+	font-size: 30px;
+}
+
+.june31_bold_content{
+	height: 25px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.june31_normal_content{
+	height: 58px;
+	font-size: 18px;
+	margin-top: 10px;	
+}
+
+.june31_btn{
+	height:17px;
+	width: 125px;
+	font-size: 18px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.june29{
+	height: 240px;
+	width:30%;
+	float: left;
+	background-color: #0E0C0A;
+}
+/**/
+.jume29_div{
+	height: 200px;
+	width:80%;
+	margin: 20px 30px 30px 30px;
+}
+
+.june29_month_name{
+	height: 30px;
+	font-size: 30px;
+}
+
+.june29_bold_content{
+	height: 25px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.june29_normal_content{
+	height: 58px;
+	font-size: 18px;
+	margin-top: 10px;	
+}
+
+.june29_btn{
+	height:17px;
+	width: 125px;
+	font-size: 18px;
+	margin-top: 10px;
+	padding: 10px;
+}
+/**/
+.june17{
+	height: 240px;
+	width:36%;
+	float: left;
+	background-color: #0E0C0A;
+}
+
+/**/
+.jume17_div{
+	height: 200px;
+	width:80%;
+	margin: 20px 30px 30px 30px;
+}
+
+.june17_month_name{
+	height: 30px;
+	font-size: 30px;
+}
+
+.june17_bold_content{
+	height: 25px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.june17_normal_content{
+	height: 58px;
+	font-size: 18px;
+	margin-top: 10px;	
+}
+
+.june17_btn{
+	height:17px;
+	width: 125px;
+	font-size: 18px;
+	margin-top: 10px;
+	padding: 10px;
+}
+/**/
+.footer_section{
+	height: 200px;
+	background-color: #000000;	
+}
+
+.footer_section_contact{
+	height: 250px;
+	background-color: #000000;	
+}
+
+.hope_soicl_icon{
+	height: 55px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+.hope_soicl_icon_contact{
+	height: 55px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+	padding-top: 20px;
+}
+
+.hope_center{
+	height:50px;
+	width:260px;
+	font-size: 40px;
+	float: left;	
+}
+
+.social_icon{
+	float: right;
+	height: 30px;
+	margin-top: 10px;
+}
+
+.facebook{
+	width: 30px;
+	float: left;
+	height: 30px;
+}
+
+.twitter{
+	width: 30px;
+	float: left;
+	height: 30px;	
+}
+
+.linkedin{
+	width: 30px;
+	float: left;
+	height: 30px;		
+}
+
+.footer_menu_number
+{
+	height: 55px;
+	margin-left: 25px;
+	margin-right: 25px;	
+}
+
+.menu{
+	width: 550px;
+	float: left;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	display: inline;
+	margin-left: 25px;
+	color:white;
+}
+
+.number{
+	height: 40px;
+	width: 320px;
+	float: left;
+	font-size: 35px;
+	padding-top: 10px;
+	text-align: right;
+}
+
+.template{
+	height: 55px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.template_contact{
+	height: 55px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top:20px;	
+}
+
+.first_line{
+	height: 15px;
+	text-align: center;
+	color: white;
+}
+
+.second_line{
+	height: 15px;
+	text-align: center;
+	color: white;
+	margin-top: 5px;
+}
+/*Home page css end*/
+
+/*our mission css start*/
+.ourmission_body{
+	height: 1260px;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #151410;
+}
+
+.om_footer_content
+{
+	height: 90px;
+	width: 945px;
+	background-color: #130F0C;
+}
+
+.om_footer_content1{
+	height: 90px;
+	width: 870px;	
+	margin-left: 30px;
+	font-size: 17px;
+	color:gray;
+}
+
+.line_menu{
+	border:solid black;
+	height: 150px;
+	width: 945px;
+	background-color: black;
+}
+
+.line1{
+	height: 30px;
+	width: 860px;
+	margin:30px 30px 0 30px;
+}
+
+.line1_content1{
+	height: 30px;
+	width: 280px;
+	float: left;
+}
+
+.line1_content1_smallicon{
+	height: 20px;
+	width: 20px;
+	float: left;
+}
+
+.line1_content1_content{
+	height: 20px;
+	width: 245px;
+	float: left;
+	color:white;
+	margin-left:9px;
+}
+
+.line1_content2{
+	height: 30px;
+	width: 280px;
+	float: left;
+}
+
+.line1_content3{
+	height: 30px;
+	width: 280px;
+	float: left;
+}
+
+.line2{
+	height: 30px;
+	width: 860px;
+	margin-left: 30px;
+}
+
+.line2_content1{
+	height: 30px;
+	width: 280px;
+	float: left;
+}
+
+.line2_content2{
+	height: 30px;
+	width: 280px;
+	float: left;
+}
+
+.line2_content3{
+	height: 30px;
+	width: 280px;
+	float: left;
+}
+
+.line3{
+	height: 30px;
+	width: 860px;
+	margin-left: 30px;
+}
+
+.line3_content1{
+	height: 30px;
+	width: 280px;
+	float: left;
+}
+
+.line3_content2{
+	height: 30px;
+	width: 280px;
+	float: left;
+}
+
+.line3_content3{
+	height: 30px;
+	width: 280px;
+	float: left;
+}
+/*our mission css end*/
+
+
+/*News and Year Start*/
+.year .year_list ul{
+	list-style-type: none;
+}
+
+.year .year_list ul li{
+	display: inline;
+	font-size: 25px;
+	margin-left: 40px;
+}
+
+.year_detail{
+	border:solid black;
+	height: 600px;
+	width: 1043px;
+	background-color: black;
+}
+
+.june31_detail{
+	height: 150px;
+	width: 930px;
+	margin:50px 40px 0 50px;
+	margin-bottom: -30px;
+}
+
+.june31_detail_first{
+	font-size: 30px;
+}
+
+.june31_detail_second{
+	margin-top: 5px;
+}
+
+.june31_detail_third{
+	margin-top: 5px;
+	text-align: justify;
+}
+
+.june29_detail{
+	height: 150px;
+	width: 930px;
+	margin:50px 40px 0 50px;
+	margin-bottom: -30px;
+}
+
+.june29_detail_first{
+	font-size: 30px;
+}
+
+.june29_detail_second{
+	margin-top: 5px;
+}
+
+.june29_detail_third{
+	margin-top: 5px;
+	text-align: justify;
+}
+
+.june17_detail{
+	height: 150px;
+	width: 930px;
+	margin:50px 40px 0 50px;
+}
+
+.june17_detail_first{
+	font-size: 30px;
+}
+
+.june17_detail_second{
+	margin-top: 5px;
+}
+
+.june17_detail_third{
+	margin-top: 5px;
+	text-align: justify;
+}
+
+.press_aboutus{
+	height: 280px;		
+	background-color: #DAD6CB;
+}
+
+.press{
+	height: 30px;
+	width: 200px;
+	font-size: 30px;
+	padding-top: 30px;
+	margin-left: 30px;
+}
+
+.press_img_content{
+	height: 170px;
+	width: 990px;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+.press_img{
+	height: 170px;
+	width: 250px;
+	float: left;
+}
+
+.press_content{
+	height: 170px;
+	width: 685px;
+	float: left;	
+	margin-left: 40px;
+	font-size: 17px;
+}
+/*News and Year End*/
+
+/*Help Start*/
+.donation{
+	height: 220px;
+	width: 940px;
+	background-color: #151410;
+}
+
+.donation_detail{
+	height: 150px;
+	width: 930px;
+	margin:30px 40px 0 50px;
+	margin-bottom: -30px;
+}
+
+.donation_detail_first{
+	font-size: 30px;
+}
+
+.donation_detail_second{
+	margin-top: 5px;
+	width: 900px;
+}
+
+.donation_detail_third{
+	margin-top: 5px;
+	text-align: justify;
+	width: 850px;
+}
+
+.help_body{
+	height: 920px;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #151410;
+}
+
+.how_canyou_donate{
+	height: 210px;		
+	background-color: #151110;
+}
+
+.how_canyou_donate_img{
+	height: 170px;
+	width: 990px;
+	margin-left: 30px;
+}
+
+.hcud_img{
+	height: 170px;
+	width: 250px;
+	float: left;
+	padding-top: 20px;
+}
+
+.hcud_img_content{
+	height: 170px;
+	width: 600px;
+	float: left;	
+	margin-left: 40px;
+	font-size: 17px;
+	padding-top: 20px;
+	text-align: justify;
+	color:grey;
+}
+/*Help End*/
+
+/* Contact Start*/
+.ouraddrmis{
+	height: 280px;
+	width:34%;
+	float: left;
+}
+
+.ouraddrmis_div{
+	height: 240px;
+	width:85%;
+	margin: 20px 20px 20px 20px;
+}
+
+.ouraddrmis_word{
+	height: 35px;
+	font-size: 30px;
+	margin-left: 17px;
+}
+
+.ouraddrmis_addr{
+	height: 110px;	
+	margin-top: 10px;
+}
+
+.ouraddrmis_content{
+	height: 280px;
+	width:64%;
+	float: left;
+}
+
+.ouraddrmis_content_header{
+	height: 240px;
+	width:85%;
+	margin: 20px 20px 20px 20px;
+}
+
+.ouraddrmis_content_header_word{
+	height: 35px;
+	font-size: 30px;
+}
+
+.ouraddrmis_content_header_content{
+	height: 160px;
+	width:550px;	
+	margin-top: 10px;
+}
+
+.contactform{
+	height: 370px;
+	width: 940px;
+	background-color: #151410;
+}
+
+.contactform_word{
+	height: 150px;
+	width: 930px;
+	margin:30px 40px 0 50px;
+	margin-bottom: -30px;
+}
+
+.contactform_word_first{
+	font-size: 30px;
+}
+
+.contactform_form{
+	margin-top: 5px;
+	width: 550px;
+	height: 270px;
+	float: left;
+}
+
+.contactform_img{
+	float: left;
+	height: 275px;
+	width: 290px;
+	margin-left: 20px;
+}
+
+.contactform_first_line{
+	height: 25px;
+}
+
+.contactform_first_line_address{
+	height: 100px;	
+}
+
+.contactform_btn{
+	height: 47px;		
+}
+
+.send{
+	float: right;
+	height:30px; 
+	width:130px;
+	background-color: cyan;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.clear{
+	float: right;
+	height:30px; 
+	width:130px;	
+	background-color: cyan;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+}
+/* Contact End*/

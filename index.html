@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The pre tag preserves both spaces and line breaks:</p>
+<p>The HTML <pre> element defines pre-formatted text.</p>
+
+<pre>
+   My Bonnie lies over the ocean.
+
+   My Bonnie lies over the sea.
+
+   My Bonnie lies over the ocean.
+   
+   Oh, bring back my Bonnie to me.
+</pre>
+
+<hr>
+	<p>The del element represents deleted (removed) text.</p>
+	<p>My favorite color is <del>blue</del> red.</p>
+<hr>
+	<p>The ins element represent inserted (added) text.</p>
+	<p>My favorite <ins>color</ins> is red.</p>
+<hr>
+	<p>This is <sub>subscripted</sub> text.</p>
+<hr>
+	<p>This is <sup>superscripted</sup> text.</p>
+<hr>
+	<p>Browsers usually insert quotation marks around the q element.</p>
+	<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+<hr>
+	<p>Browsers usually indent blockquote elements.</p>
+
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+	For 50 years, WWF has been protecting the future of nature.
+	The world's leading conservation organization,
+	WWF works in 100 countries and is supported by
+	1.2 million members in the United States and
+	close to 5 million globally.
+	</blockquote>
+<hr>
+	<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+	<p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>
+<hr>
+	<p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+
+	<address>
+	Written by Jon Doe.<br> 
+	Visit us at:<br>
+	Example.com<br>
+	Box 564, Disneyland<br>
+	USA
+	</address>
+<hr>
+	<p>The HTML cite element defines the title of a work.</p>
+	<p>Browsers usually display cite elements in italic.</p>
+
+	<img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+	<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+<hr>
+	bdo for Bi-Directional Override
+	<p>If your browser supports bi-directional override (bdo), the next line will be written from right to left (rtl):</p>
+
+	<bdo dir="rtl">This line will be written from right to left</bdo>
+<hr>
+	Visit the link http://www.w3schools.com/html/html_computercode_elements.asp
+<hr>
+	Use the HTML map element to define an image-map
+	Use the HTML area element to define the clickable areas in the image-map
+<hr>
+	The datalist element specifies a list of pre-defined options for an input element.
+
+	Users will see a drop-down list of pre-defined options as they input data.
+
+	The list attribute of the input element, must refer to the id attribute of the datalist element.
+
+	<form action="action_page.php">
+	  <input list="browsers" name="browser">
+	  <datalist id="browsers">
+	    <option value="Internet Explorer">
+	    <option value="Firefox">
+	    <option value="Chrome">
+	    <option value="Opera">
+	    <option value="Safari">
+	  </datalist>
+	  <input type="submit">
+	</form>
+
+	<p><b>Note:</b> The datalist tag is not supported in Safari or IE9 (and earlier).</p>
+<hr>
+	The purpose of the keygen element is to provide a secure way to authenticate users.
+
+	The keygen element specifies a key-pair generator field in a form.
+
+	When the form is submitted, two keys are generated, one private and one public.
+
+	The private key is stored locally, and the public key is sent to the server.
+
+	The public key could be used to generate a client certificate to authenticate the user in the future.
+
+	<form action="action_page.php">
+	  Username: <input type="text" name="user">
+	  Encryption: <keygen name="security">
+	  <input type="submit">
+	</form>
+<hr>
+	The output element represents the result of a calculation (like one performed by a script).
+
+	<form action=""
+	  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+	  0
+	  <input type="range"  id="a" name="a" value="50">
+	  100 +
+	  <input type="number" id="b" name="b" value="50">
+	  =
+	  <output name="x" for="a b"></output>
+	  <br><br>
+	  <input type="submit">
+	</form>
+<hr>
+	optgroup	Defines a group of related options in a drop-down list
+<hr>
+	The novalidate attribute is a form attribute.
+
+	When present, novalidate specifies that form data should not be validated when submitted.
+
+	<form action="action_page.php" novalidate>
+	  E-mail: <input type="email" name="user_email">
+	  <input type="submit">
+	</form>
+<hr>
+	The formenctype attribute specifies how the form-data should be encoded when submitting it to the server (only for forms with method="post").
+
+	The formenctype attribute overrides the enctype attribute of the form element.
+
+	The formenctype attribute is used with type="submit" and type="image".
+<hr>
+	The formtarget attribute specifies a name or a keyword that indicates where to display the response that is received after submitting the form.
+
+	The formtarget attribute overrides the target attribute of the form  element.
+
+	The formtarget attribute can be used with type="submit" and type="image".
+
+	<form action="action_page.php">
+	  First name: <input type="text" name="fname"><br>
+	  Last name: <input type="text" name="lname"><br>
+	  <input type="submit" value="Submit as normal">
+	  <input type="submit" formtarget="_blank"
+	  value="Submit to a new window">
+	</form>
+<hr>
+	The list attribute refers to a datalist element that contains pre-defined options for an input element.
+<hr>
+</body>
+</html>
